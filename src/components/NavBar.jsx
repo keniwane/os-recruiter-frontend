@@ -6,7 +6,7 @@ const NavBar = () => {
   const links = ['Jobs', 'Employers', 'Courses', 'Candidates', 'About Us', 'Contact', 'Blog']
 
   return (
-    <h1 className='flex'>
+    <h1 className='flex flex-row gap-2'>
       {links.map((link) => (
         <Link key={link} to={`/${link}`}>{link}</Link>
       ))}

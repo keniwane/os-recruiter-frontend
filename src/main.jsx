@@ -7,7 +7,7 @@ import Contact from './pages/Contact.jsx'
 import Candidates from './pages/Candidates.jsx'
 import Blog from './pages/Blog.jsx'
 import AboutUs from './pages/AboutUs.jsx'
-import './main.css'
+import './index.css'
 
 import NotFoundPage from './pages/NotFoundPage.jsx'
 
