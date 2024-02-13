@@ -1,10 +1,13 @@
-import React from 'react'
-import NavBar from '../components/NavBar.jsx'
+import React from 'react';
+import NavBar from '../components/NavBar.jsx';
 
 const HomePage = () => {
   return (
-    <div><NavBar/></div>
-  )
-}
+    <React.Fragment>
+      <NavBar />
+      <div className='bg-slate-400'></div>
+    </React.Fragment>
+  );
+};
 
-export default HomePage
+export default HomePage;
