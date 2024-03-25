@@ -1,0 +1,121 @@
+.primary-footer {
+  position: absolute;
+  width: 100%;
+  min-height: 18rem;
+  background-color: var(--clr-purple-900);
+  padding-block: var(--size-700);
+  color: var(--clr-neutral-100);
+}
+
+.primary-footer-wrapper {
+  display: grid;
+  gap: var(--size-700);
+  grid-template-areas:
+    'form'
+    'nav'
+    'logo-social';
+}
+
+.primary-footer-logo-social {
+  grid-area: logo-social;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.footer-logo {
+  position: relative;
+  left: -20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo-icon {
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.footer-title-text {
+  line-height: 1.2;
+  color: var(--clr-neutral-100);
+  font-weight: 600;
+  font-size: var(--fs-600);
+}
+
+.footer-title-text p {
+  font-weight: 400;
+}
+
+.primary-footer-nav {
+  grid-area: nav;
+}
+
+.primary-footer-form {
+  grid-area: form;
+  display: grid;
+  justify-items: end;
+  align-content: space-between;
+}
+
+.primary-footer form {
+  display: flex;
+  gap: var(--size-200);
+}
+
+input:where([type='text'], [type='email'], ) {
+  border-radius: 100vw;
+  border: 0;
+  padding: var(--size-300) var(--size-400);
+}
+
+@media (min-width: 50em) {
+  .primary-footer-wrapper {
+    grid-template-areas: 'logo-social nav form';
+  }
+
+  .primary-footer-logo-social {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--size-700);
+  }
+}
+
+@media (max-width: 50em) {
+  .primary-footer-wrapper > * {
+    margin-inline: auto;
+  }
+
+  .footer-logo {
+    padding-top: 1rem;
+  }
+
+  .footer-nav {
+    font-size: var(--fs-300);
+  }
+}
+
+.footer-nav {
+  columns: 2;
+  line-height: 2.4;
+  gap: clamp(var(--size-200), 30vw, var(--size-900));
+}
+
+.footer-nav a {
+  color: var(--clr-neutral-100);
+  text-decoration: none;
+}
+
+.social-list {
+  display: flex;
+  gap: var(--size-600);
+}
+
+.social-icon {
+  width: var(--size-600);
+  aspect-ratio: 1;
+  fill: var(--clr-neutral-100);
+}
+
+.social-list a:is(:hover, :focus) .social-icon {
+  fill: var(--clr-orange-500);
+}

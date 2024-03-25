@@ -1,9 +1,5 @@
-import React from 'react'
-
 const Employers = () => {
-  return (
-    <div>Employers</div>
-  )
-}
+  return <div>Employers</div>;
+};
 
-export default Employers
+export default Employers;

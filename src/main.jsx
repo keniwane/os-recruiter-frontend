@@ -8,7 +8,9 @@ import Candidates from './pages/Candidates.jsx';
 import Blog from './pages/Blog.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import NotFoundPage from './pages/NotFoundPage.jsx';
-import './index.css';
+import './components/style.css';
+import './components/NavBar.css';
+import './components/Hero.css';
 
 const router = createBrowserRouter([
   {
