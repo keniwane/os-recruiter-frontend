@@ -3,7 +3,7 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: center;
   gap: var(--size-900);
-  padding-top: var(--size-900);
+  padding-top: var(--size-1000);
 }
 
 .text-section {

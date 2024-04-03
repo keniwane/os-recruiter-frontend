@@ -59,8 +59,7 @@
   transition: 0.3s;
 }
 
-.nav-link-item:hover::before,
-.nav-link-item:focus {
+.nav-link-item:hover::before {
   width: 100%;
 }
 

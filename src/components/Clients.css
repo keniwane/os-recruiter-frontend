@@ -1,0 +1,64 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+.testimonials {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.testimonial-text {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-size: 16px;
+  margin: var(--size-800);
+  max-width: 20rem;
+  min-width: 15rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid var(--clr-orange-400);
+}
+
+.testimonial-text figcaption {
+  padding: 13% 10% 12%;
+}
+
+.testimonial-text figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: var(--clr-orange-400);
+  content: '\f10e';
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.testimonial-text h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.testimonial-text h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.testimonial-text blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}

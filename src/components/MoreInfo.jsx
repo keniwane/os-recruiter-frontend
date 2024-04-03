@@ -1,9 +1,38 @@
+import './MoreInfo.css';
+
 const MoreInfo = () => {
   return (
-    <div>
-      <div className='container'>
-        <div className="info-wrapper">
-          
+    <div className='container'>
+      <div className='info-wrapper'>
+        <div className='info-header'>
+          <div className='info-image'>
+            <img src='analytics.jpg' alt='Analytics' />
+          </div>
+          <div className='info-text'>
+            <h2>Recruitment Automation</h2>
+            <p>
+              Open Source Recruiter is an automation recruitment firm that utilizes machine learning technology across
+              multiple platforms to efficiently source candidates for employers and match job seekers to desired
+              positions.
+            </p>
+            <button className='learn-more button'>Learn More</button>
+          </div>
+        </div>
+
+        <div className='info-body-text'>
+          <div className='info-text'>
+            <h2>Open Source Model</h2>
+            <p>
+              Our open-source business model allows recruiters to work directly with our company to streamline the
+              sourcing-to-hire process, allowing for the most efficient and cost-effective approach to recruiting in the
+              industry.
+            </p>
+            <button className='learn-more button'>Learn More</button>
+          </div>
+
+          <div className='info-image'>
+            <img src='recruitment.jpg' alt='Recruitment' />
+          </div>
         </div>
       </div>
     </div>

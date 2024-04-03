@@ -19,7 +19,7 @@
 .primary-footer-logo-social {
   grid-area: logo-social;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .footer-logo {
@@ -111,7 +111,7 @@ input:where([type='text'], [type='email'], ) {
 }
 
 .social-icon {
-  width: var(--size-600);
+  width: 2rem;
   aspect-ratio: 1;
   fill: var(--clr-neutral-100);
 }

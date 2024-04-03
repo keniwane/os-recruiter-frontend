@@ -65,10 +65,10 @@ const Footer = () => {
             <form action=''>
               <input type='email' placeholder='email' />
               <button className='button' data-shadow='none'>
-                Go
+                Subscribe
               </button>
             </form>
-            <p>Copyright 2024. All Rights Reserved</p>
+            <p>Copyright © 2024 OSR. All Rights Reserved</p>
           </div>
         </div>
       </div>
