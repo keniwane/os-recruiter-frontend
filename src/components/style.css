@@ -31,10 +31,15 @@
   --size-700: 3rem;
   --size-800: 4rem;
   --size-900: 5rem;
+  --size-1000: 7rem;
 
   --fw-light: 200;
   --fw-normal: 400;
   --fw-bold: 600;
+}
+
+body {
+  background-image: url('');
 }
 
 * {

@@ -1,9 +1,16 @@
 import { Link } from 'react-router-dom';
 import OSRIcon from '/osr-logo.jpg';
 import MobileMenu from './MobileMenu';
+import './NavBar.css';
 
 const NavBar = () => {
-  const links = ['Home', 'Jobs', 'Courses', 'About Us', 'Blog'];
+  const links = [
+    { id: 'home', name: 'Home', link: '/' },
+    { id: 'jobs', name: 'Jobs', link: 'https://www.osrjobs.com' },
+    { id: 'courses', name: 'Courses', link: 'https://skillyah.com/courses' },
+    { id: 'about-us', name: 'About Us', link: '/about' },
+    { id: 'blog', name: 'Blog', link: '/blog' },
+  ];
 
   return (
     <div className='header'>
@@ -23,8 +30,8 @@ const NavBar = () => {
 
           <div className='nav-links'>
             {links.map((link) => (
-              <Link className='nav-link-item' key={link} to={`/${link.replace(/\s+/g, '').toLowerCase()}`}>
-                {link}
+              <Link className='nav-link-item' key={link.id} to={`${link.link}`}>
+                {link.name}
               </Link>
             ))}
           </div>
