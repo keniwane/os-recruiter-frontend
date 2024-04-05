@@ -20,8 +20,8 @@ const MobileMenu = ({ links }) => {
         {isOpen && (
           <div className='mobile-links'>
             {links.map((link) => (
-              <Link className='nav-link-item' key={link} to={`/${link.replace(/\s+/g, '').toLowerCase()}`}>
-                {link}
+              <Link className='nav-link-item' key={link.id} to={`${link.link}`}>
+                {link.name}
               </Link>
             ))}
           </div>

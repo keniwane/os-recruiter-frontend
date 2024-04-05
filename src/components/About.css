@@ -1,0 +1,29 @@
+.about-wrapper {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  padding-block: 5rem;
+}
+
+.about-text,
+.about-img {
+  flex: 1;
+}
+
+.about-text {
+  text-align: center;
+  color: var(--clr-purple-900);
+}
+
+.about-text h3 {
+  font-size: var(--fs-700);
+  padding-bottom: 1rem;
+}
+
+.about-text h3::after {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 0.2rem;
+  background-color: var(--clr-orange-500);
+}

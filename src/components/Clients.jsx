@@ -33,12 +33,13 @@ const Clients = () => {
         <figcaption>
           <blockquote>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque mauris luctus erat placerat
-              aliquam. Donec maximus in risus at condimentum. Suspendisse non sem id enim pharetra tempor ut nec mauris.
+              Finding the right candidates consumes a lot of time and money at our company. After utilizing Open Source
+              Recruiter, we were able to streamline the entire recruitment process and find quality individuals in no
+              time.
             </p>
           </blockquote>
-          <h3>Name</h3>
-          <h4>Company</h4>
+          <h3>Tomás Wayne</h3>
+          <h4>Collaboratory</h4>
         </figcaption>
       </figure>
     </div>

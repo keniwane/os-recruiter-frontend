@@ -8,7 +8,7 @@ const NavBar = () => {
     { id: 'home', name: 'Home', link: '/' },
     { id: 'jobs', name: 'Jobs', link: 'https://www.osrjobs.com' },
     { id: 'courses', name: 'Courses', link: 'https://skillyah.com/courses' },
-    { id: 'about-us', name: 'About Us', link: '/about' },
+    { id: 'about-us', name: 'About Us', link: '/aboutus' },
     { id: 'blog', name: 'Blog', link: '/blog' },
   ];
 

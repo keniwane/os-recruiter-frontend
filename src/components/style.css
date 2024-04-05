@@ -42,6 +42,10 @@ body {
   background-image: url('');
 }
 
+html {
+  overflow-y: scroll;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -71,4 +75,12 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+.container {
+  --max-width: 1200px;
+  --container-padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--container-padding) * 2));
+  margin-inline: auto;
 }
