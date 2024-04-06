@@ -1,4 +1,5 @@
-import ContactUs from './ContactUs';
+/* eslint-disable react/no-unescaped-entities */
+import EmailForm from './EmailForm';
 import './EmployersInfo.css';
 
 const EmployersInfo = () => {
@@ -21,18 +22,18 @@ const EmployersInfo = () => {
           <br />
           <p>
             With each engagement, your posting will also be shared with our partner diversity search firm
-            (deiajobs.com), where visibility will further spread to dozens of diverse organizations. ​ We are also able
-            to undertake confidential job searches and handle all recruitment and selection processes discretely.
+            (deiajobs.com), where visibility will further spread to dozens of diverse organizations. We are also able to
+            undertake confidential job searches and handle all recruitment and selection processes discretely.
           </p>
         </div>
-        <div className='employers-img'>
+        {/* <div className='employers-img'>
           <img src='about-us.jpg' />
+        </div> */}
+        <div className='section-header'>
+          <h1>Ready to Get Started?</h1>
+          <EmailForm />
         </div>
       </div>
-      <div className='section-header'>
-        <h1>Ready to Get Started?</h1>
-      </div>
-      <ContactUs />
     </div>
   );
 };

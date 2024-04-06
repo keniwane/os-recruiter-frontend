@@ -1,0 +1,52 @@
+.email-form {
+  max-width: 30rem; /* Responsive width */
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 0.5rem; /* Smaller value, still using px for very specific stylings */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  font-size: 1rem; /* Base font size */
+}
+
+.email-form input[type='text'],
+.email-form input[type='email'],
+.email-form textarea {
+  width: 100%; /* Full width */
+  padding: 0.9375rem; /* 15px equivalent */
+  margin-bottom: 1.25rem; /* 20px equivalent */
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem; /* 5px equivalent */
+  background-color: #fff;
+  resize: none; /* Stops the user from resizing the textarea */
+}
+
+.email-form textarea {
+  height: auto; /* Height is based on content */
+  min-height: 9.375rem; /* 150px equivalent, ensuring enough space for text */
+}
+
+.email-form button {
+  width: 100%;
+  padding: 0.9375rem;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #aaa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .email-form {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .email-form input,
+  .email-form textarea,
+  .email-form button {
+    font-size: 0.9rem; /* Slightly smaller font size on smaller screens */
+  }
+}

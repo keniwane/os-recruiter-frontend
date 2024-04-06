@@ -9,15 +9,18 @@
 }
 
 .employers-info,
-.employers-img {
+.employers-img,
+.section-header {
   flex: 1;
 }
 
 .employers-info h1 {
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .section-header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
