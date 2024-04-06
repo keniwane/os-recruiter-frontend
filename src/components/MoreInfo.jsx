@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './MoreInfo.css';
 
 const MoreInfo = () => {
@@ -15,7 +16,9 @@ const MoreInfo = () => {
               multiple platforms to efficiently source candidates for employers and match job seekers to desired
               positions.
             </p>
-            <button className='learn-more button'>Learn More</button>
+            <Link className='learn-more button' to={`/aboutus`}>
+              Learn More
+            </Link>
           </div>
         </div>
 
@@ -27,7 +30,10 @@ const MoreInfo = () => {
               sourcing-to-hire process, allowing for the most efficient and cost-effective approach to recruiting in the
               industry.
             </p>
-            <button className='learn-more button'>Learn More</button>
+
+            <Link className='learn-more button' to={`/aboutus`}>
+              Learn More
+            </Link>
           </div>
 
           <div className='info-image'>

@@ -2,7 +2,6 @@
 
 .testimonials {
   text-align: center;
-  padding-bottom: 5rem;
 }
 
 .testimonial-text {
@@ -22,7 +21,7 @@
 }
 
 .testimonial-text figcaption {
-  padding: 13% 10% 12%;
+  padding: 2rem 2rem;
 }
 
 .testimonial-text figcaption:before {

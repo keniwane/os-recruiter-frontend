@@ -1,0 +1,27 @@
+.contact-info {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--clr-purple-900);
+}
+
+.contact-icons {
+  padding-top: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three columns of equal width */
+  grid-template-rows: auto auto; /* Two rows: size depends on the content */
+  justify-items: center; /* Center-align items horizontally */
+  align-items: center; /* Center-align items vertically */
+  gap: 1rem; /* Adjust gap as needed */
+}
+
+.contact-icons img {
+  width: 2rem;
+  grid-row: 1; /* Place all images in the first row */
+}
+
+.contact-icons p {
+  grid-row: 2; /* Place all texts in the second row */
+}
