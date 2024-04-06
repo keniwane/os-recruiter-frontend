@@ -1,0 +1,23 @@
+.employers {
+  color: var(--clr-purple-900);
+}
+
+.employers-wrapper {
+  padding-block: 3rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.employers-info,
+.employers-img {
+  flex: 1;
+}
+
+.employers-info h1 {
+  padding-bottom: 1rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+}

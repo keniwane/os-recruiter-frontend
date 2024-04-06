@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
+import { linksFooter } from '../constants/index';
 import './Footer.css';
 
 const Footer = () => {
-  const links = ['Home', 'Jobs', 'Employers', 'Courses', 'Candidates', 'About Us', 'Contact', 'Blog'];
-
   return (
     <footer className='primary-footer'>
       <div className='container'>
@@ -52,10 +51,10 @@ const Footer = () => {
           </div>
           <div className='primary-footer-nav'>
             <ul className='footer-nav'>
-              {links.map((link) => (
-                <li key={link}>
-                  <Link className='nav-link-item' to={`/${link.replace(/\s+/g, '').toLowerCase()}`}>
-                    {link}
+              {linksFooter.map((link) => (
+                <li key={link.id}>
+                  <Link className='nav-link-item' to={`${link.url}`}>
+                    {link.name}
                   </Link>
                 </li>
               ))}

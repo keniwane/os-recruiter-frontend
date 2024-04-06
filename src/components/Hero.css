@@ -34,8 +34,8 @@
 
 .cta-buttons {
   display: flex;
-  justify-content: center;
-  gap: var(--size(600));
+  justify-content: space-evenly;
+
   padding-top: var(--size-400);
 }
 

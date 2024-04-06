@@ -52,3 +52,9 @@
   padding: var(--size-1000) 0;
   display: flex;
 }
+
+@media (max-width: 40rem) {
+  .info-image {
+    display: none;
+  }
+}
