@@ -1,17 +1,17 @@
 export const NavBarLinks = [
-  { id: 'home', name: 'Home', url: '/' },
-  { id: 'employers', name: 'Employers', url: '/employers' },
-  { id: 'candidates', name: 'Candidates', url: '/candidates' },
-  { id: 'about-us', name: 'About Us', url: '/aboutus' },
-  { id: 'contact', name: 'Contact Us', url: '/contact' },
+  { id: 'home', name: 'Home', url: '/os-recruiter-frontend/' },
+  { id: 'employers', name: 'Employers', url: '/os-recruiter-frontend/employers' },
+  { id: 'candidates', name: 'Candidates', url: '/os-recruiter-frontend/candidates' },
+  { id: 'about-us', name: 'About Us', url: '/os-recruiter-frontend/aboutus' },
+  { id: 'contact', name: 'Contact Us', url: '/os-recruiter-frontend/contact' },
 ];
 
 export const FooterLinks = [
-  { id: 'home', name: 'Home', url: '/' },
+  { id: 'home', name: 'Home', url: '/os-recruiter-frontend/' },
   { id: 'jobs', name: 'Jobs', url: 'https://www.osrjobs.com' },
   { id: 'courses', name: 'Courses', url: 'https://skillyah.com/courses' },
-  { id: 'privacy-policy', name: 'Privacy Policy', url: '/' },
-  { id: 'blog', name: 'Blog', url: '/' },
-  { id: 'contact', name: 'Contact Us', url: '/contact' },
-  { id: 'about-us', name: 'About Us', url: '/aboutus' },
+  { id: 'privacy-policy', name: 'Privacy Policy', url: '/os-recruiter-frontend/' },
+  { id: 'blog', name: 'Blog', url: '/os-recruiter-frontend/' },
+  { id: 'contact', name: 'Contact Us', url: '/os-recruiter-frontend/contact' },
+  { id: 'about-us', name: 'About Us', url: '/os-recruiter-frontend/aboutus' },
 ];

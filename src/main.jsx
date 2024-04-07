@@ -13,7 +13,7 @@ import './components/style.css';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/os-recruiter-frontend/',
     element: (
       <Layout>
         <HomePage />
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: '/employers',
+    path: '/os-recruiter-frontend/employers',
     element: (
       <Layout>
         <Employers />
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: '/contact',
+    path: '/os-recruiter-frontend/contact',
     element: (
       <Layout>
         <Contact />
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: '/blog',
+    path: '/os-recruiter-frontend/blog',
     element: (
       <Layout>
         <Blog />
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: '/candidates',
+    path: '/os-recruiter-frontend/candidates',
     element: (
       <Layout>
         <Candidates />
@@ -58,7 +58,7 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
   },
   {
-    path: '/aboutus',
+    path: '/os-recruiter-frontend/aboutus',
     element: (
       <Layout>
         <AboutUs />
