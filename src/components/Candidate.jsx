@@ -1,4 +1,5 @@
 import UploadFile from './UploadFile';
+import React from 'react';
 import './Candidate.css';
 
 const Candidate = () => {

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './MoreInfo.css';
+import React from 'react';
 
 const MoreInfo = () => {
   return (

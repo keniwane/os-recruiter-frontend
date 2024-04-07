@@ -3,6 +3,7 @@ import { NavBarLinks } from '../constants/index';
 import OSRIcon from '/osr-logo.jpg';
 import MobileMenu from './MobileMenu';
 import './NavBar.css';
+import React from 'react';
 
 const NavBar = () => {
   return (
