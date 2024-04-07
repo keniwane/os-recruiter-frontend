@@ -15,7 +15,7 @@ const MobileMenu = ({ links }) => {
           aria-expanded={isOpen ? 'true' : 'false'}
           onClick={toggleMenu}
         >
-          <img className='hamburger-menu' src='/hamburger-menu.svg' alt='menu' />
+          <img className='hamburger-menu' src='/os-recruiter-frontend/hamburger-menu.svg' alt='menu' />
         </button>
         {isOpen && (
           <div className='mobile-links'>

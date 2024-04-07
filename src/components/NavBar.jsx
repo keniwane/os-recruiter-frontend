@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className='container'>
         <div className='wrapper'>
           <div className='header-right'>
-            <Link className='logo-icon' to={`/`}>
+            <Link className='logo-icon' to={`/os-recruiter-frontend/`}>
               <img className='logo-img' src={OSRIcon} alt='OSR Logo' />
             </Link>
             <div className='header-title'>
@@ -29,7 +29,7 @@ const NavBar = () => {
             ))}
           </div>
           <MobileMenu links={NavBarLinks} />
-          <Link className='header-button button' to={`/contact`}>
+          <Link className='header-button button' to={`/os-recruiter-frontend/contact`}>
             Get Started
           </Link>
         </div>
