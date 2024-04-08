@@ -3,8 +3,6 @@ import { MdCloudUpload, MdDelete } from 'react-icons/md';
 import { AiFillFileImage } from 'react-icons/ai';
 import './UploadFile.css';
 
-import React from 'react';
-
 const UploadFile = () => {
   const [image, setImage] = useState(null);
   const [fileName, setFileName] = useState('No Resume Selected');

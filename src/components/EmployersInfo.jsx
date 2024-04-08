@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import EmailForm from './EmailForm';
 import './EmployersInfo.css';
 
