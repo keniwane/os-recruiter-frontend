@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import UploadFile from './UploadFile';
 import './Candidate.css';
 
