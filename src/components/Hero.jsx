@@ -11,10 +11,10 @@ const Hero = () => {
             <br /> <span>Where AI Meets Hire Expectations</span>
           </h1>
           <div className='cta-buttons'>
-            <Link className='button' to={`os-recruiter-frontend/employers`}>
+            <Link className='button' to={`/os-recruiter-frontend/employers`}>
               Employers
             </Link>
-            <Link className='button' to={`os-recruiter-frontend/candidates`}>
+            <Link className='button' to={`/os-recruiter-frontend/candidates`}>
               Candidates
             </Link>
           </div>

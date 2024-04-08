@@ -16,7 +16,7 @@ const MoreInfo = () => {
               multiple platforms to efficiently source candidates for employers and match job seekers to desired
               positions.
             </p>
-            <Link className='learn-more button' to={`os-recruiter-frontend/aboutus`}>
+            <Link className='learn-more button' to={`/os-recruiter-frontend/aboutus`}>
               Learn More
             </Link>
           </div>
@@ -31,7 +31,7 @@ const MoreInfo = () => {
               industry.
             </p>
 
-            <Link className='learn-more button' to={`os-recruiter-frontend/aboutus`}>
+            <Link className='learn-more button' to={`/os-recruiter-frontend/aboutus`}>
               Learn More
             </Link>
           </div>
