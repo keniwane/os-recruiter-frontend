@@ -1,6 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import React from 'react';
 import './EmailForm.css';
 
 const EmailForm = () => {

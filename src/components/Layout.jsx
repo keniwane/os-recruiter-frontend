@@ -1,5 +1,5 @@
-import ScrollToTop from './ScrollToTop';
 import React from 'react';
+import ScrollToTop from './ScrollToTop';
 
 const Layout = ({ children }) => {
   return (
